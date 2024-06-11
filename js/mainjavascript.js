@@ -31,10 +31,9 @@
         let iconaSpesa = iconeSpesa[contatore];
         console.log(iconaSpesa);
 
-        4
+        
             // creare l'elemento da inserire ad ogni iterazione
-        let itemContenuto = `<li class="itemspesa">
-                    <i class="fas ${iconaSpesa}"></i> ${itemSpesa}</li>`;
+        let itemContenuto = ` <div class="item-container"><li class="itemspesa"><i class="fas ${iconaSpesa}"></i> ${itemSpesa}</li></div>`;
 
         // Incrementa il contatore
         contatore++;

@@ -2,6 +2,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Rammetto One", sans-serif;
+    
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+header{
+    background-color: blue;
+}
+
+.titolo{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 50px;
+
 }
 main{
 
@@ -9,13 +27,28 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
    
 }
 
 .contenitore-generale{
-    
-    max-width: 600px;
-    overflow: hidden;
     border: 2px solid gray;
     border-radius: 10px;
+    background-color: blue;
+   
+}
+
+
+.item-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+.itemspesa {
+    list-style: none;
+    margin-left: 10px;
+    color:  orange;
+}
+.item-container i {
+    font-size: 20px;
 }
