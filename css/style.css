@@ -14,13 +14,22 @@ body{
 /* sezione header  */
 header{
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #ccc;
     background-color: blue;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
 
 header img {
     width: 100px;
@@ -30,6 +39,12 @@ header img {
 header .icon {
     font-size: 30px;
     color: orange;
+    cursor: pointer;
+}
+
+header .icon:hover{
+    color: white;
+    
 }
 
 .titolo{
@@ -70,6 +85,12 @@ main{
     list-style: none;
     margin-left: 10px;
     color:  #E71600;
+}
+
+.itemspesa:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
