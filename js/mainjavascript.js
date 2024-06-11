@@ -10,6 +10,8 @@
     // creazione nuovo array per la lista della spesa da inserire dinamicamente da js
     const arraySpesa = ['pane', 'burro','olio','uova','pomodori', 'pasta', 'affettati'];
 
+    const iconeSpesa = ['fa-bread-slice',' fa-cheese','fa-oil-can','fa-egg','fa-apple-alt','fa-utensils','fa-cheese'];          
+
  // 2
     // prendere l' elemento contenitore degli li della lista della spesa rendendolo globale 
     const contenitoreAlimenti = document.querySelector(".contenitore-alimenti");
@@ -26,10 +28,13 @@
         let itemSpesa = arraySpesa[contatore];
         console.log(itemSpesa);
 
+        let iconaSpesa = iconeSpesa[contatore];
+        console.log(iconaSpesa);
+
         4
             // creare l'elemento da inserire ad ogni iterazione
-        let itemContenuto = `<li class="itemspesa">${itemSpesa}</li>`;
-
+        let itemContenuto = `<li class="itemspesa">
+                    <i class="fas ${iconaSpesa}"></i> ${itemSpesa}</li>`;
 
         // Incrementa il contatore
         contatore++;
