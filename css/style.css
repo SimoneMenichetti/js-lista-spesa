@@ -5,22 +5,40 @@
     font-family: "Rammetto One", sans-serif;
     
 }
+/* regole generali */
 
 body{
     background-color: yellowgreen;
 }
 
+/* sezione header  */
 header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
     background-color: blue;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header .icon {
+    font-size: 30px;
+    color: orange;
 }
 
 .titolo{
     text-align: center;
     font-size: 40px;
     color: orange;
-    margin-bottom: 50px;
-
 }
+
+/* sezione main */
 main{
 
     display: flex;
@@ -32,23 +50,33 @@ main{
 }
 
 .contenitore-generale{
-    border: 2px solid gray;
-    border-radius: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    border-radius: 30px;
     background-color: blue;
    
 }
 
-
+/* contenitore item lista spesa */
 .item-container {
     padding: 10px;
-    border: 1px solid #ccc;
+    
     
 }
+
+/* item spesa  */
 .itemspesa {
     list-style: none;
     margin-left: 10px;
-    color:  orange;
+    color:  #E71600;
 }
-.item-container i {
-    font-size: 20px;
+
+
+/* regole img */
+
+.image-container img {
+    display: flex;
+   
+    
 }
