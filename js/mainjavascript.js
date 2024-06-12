@@ -10,7 +10,7 @@
     // creazione nuovo array per la lista della spesa da inserire dinamicamente da js
     const arraySpesa = ['pane', 'burro','olio','uova','pomodori', 'pasta', 'affettati'];
 
-    const iconeSpesa = ['fa-bread-slice',' fa-cheese','fa-oil-can','fa-egg','fa-apple-alt','fa-utensils','fa-cheese'];          
+    const iconeSpesa = ['fa-bread-slice',' fa-cheese','fa-oil-can','fa-egg','fa-apple-alt','fa-utensils'," fa-bacon"];          
 
  // 2
     // prendere l' elemento contenitore degli li della lista della spesa rendendolo globale 
